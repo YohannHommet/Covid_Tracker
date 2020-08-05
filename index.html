@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- DataTables -->
+  <link rel="stylesheet" href="//cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css">
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <title>Covid Tracker Infos</title>
+
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="text-center">Statistiques Covid_19</h1>
+  </header>
+
+  <section class="container mt-5">
+    <table id="covidTable" class="table table-border table-light table-striped shadow">
+
+      <thead class="thead-dark">
+        <tr>
+          <th>Pays</th>
+          <th>Total des cas</th>
+          <th>Nouveaux cas</th>
+          <th>Guérris</th>
+          <th>Décédés</th>
+        </tr>
+      </thead>
+
+      <tbody id="tablebody" class="table-hover"></tbody>
+
+    </table>
+  </section>
+
+  <footer class="text-center bg-dark">
+    <p>Designed and Developed by</p>
+    <p>Yohann Hommet</p>
+  </footer>
+
+
+
+
+  <!-- DataTables -->
+  <script src="//cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
