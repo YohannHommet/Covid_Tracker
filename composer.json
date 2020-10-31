@@ -1,0 +1,14 @@
+{
+  "name": "vendor_name/Covid_Tracker",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Yohann Hommet ",
+      "email": "yohann.hommet@outlook.fr"
+    }
+  ],
+  "require": {
+  }
+}
